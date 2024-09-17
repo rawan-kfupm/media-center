@@ -1,0 +1,103 @@
+.carousel .carousel-indicators{
+	left: 0;
+    right: auto;
+    bottom: 40px;
+    top: auto;
+    transform: inherit;
+    margin: 0;
+    width: 100%;
+}
+
+.carousel .carousel-inner .carousel-item .banner-img-wrapper .banner-content{
+	position: absolute;
+    max-width: 520px;
+    z-index: 1;
+    border-radius: 4px;
+    margin: 0 50px;
+    bottom: 40px;
+    top: auto;
+    background: transparent !important;
+    padding: 0;
+}
+.carousel .carousel-inner .carousel-item .banner-img-wrapper .banner-content h2{
+    background-color: rgba(206,151,28,0.7) !important;
+    padding: 4px;
+    display: inline;
+    line-height: 44px;
+}
+
+.apply-for-admission .container{
+	height: 480px;
+	position: relative;
+}
+.apply-for-admission .admission-content{
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+	width: 100%;
+}
+.quote i:before{
+    color: #B0B6BA;
+    font-size: 60px;
+    margin-top: -25px;
+    display: inline-block;
+}
+.heading-highlight{
+    position: relative;
+}
+.heading-highlight:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    background-color: #C19940;
+    border-radius: 4px;
+    bottom: -5px;
+    left: 0;
+}
+
+
+@media screen and (max-width: 991px){
+    .navbar-nav .nav-item .nav-link{
+        padding: 10px;
+    }
+    .navbar-nav .nav-item{
+        width: 100%;
+    }
+    .navbar-nav .nav-item.dropdown .nav-link.show:before{
+        display: none;
+    }
+    .navbar-nav .dropdown-menu{
+        width: 100%;
+        max-width: initial;
+        border-radius: 0;
+    }
+    .carousel .carousel-inner .carousel-item{
+        min-height: initial;
+    }
+    .carousel .carousel-inner .carousel-item .banner-img-wrapper .banner-content{
+        bottom: 0;
+        margin: 0 10px;
+    }
+    .carousel .carousel-inner .carousel-item .banner-img-wrapper .banner-content h2{
+        line-height: 40px;
+    }
+    .carousel .carousel-indicators{
+        bottom: -10px;
+    }
+    .carousel .carousel-indicators [data-bs-target]{
+        border-color: #007d40;
+    }
+    .carousel .carousel-indicators .active{
+        background-color: #007d40;
+    }
+    .quote-text .lead{
+        font-size: 16px;
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 767px){
+    .news img{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
